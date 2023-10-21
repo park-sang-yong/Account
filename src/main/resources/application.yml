@@ -7,7 +7,6 @@ spring:
   h2:
     console:
       enabled: true
-#      path: /h2-console
   jpa:
     defer-datasource-initialization: true
     database-platform: H2
@@ -18,3 +17,6 @@ spring:
       hibernate:
         format_sql: true
         show_sql: true
+server:
+  port: 8081
+#  port 8080 is nonConnecting because port 8081
