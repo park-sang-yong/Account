@@ -1,4 +1,4 @@
-package com.example.account.exam;
+package exam;
 
 import lombok.*;
 import lombok.extern.slf4j.Slf4j;

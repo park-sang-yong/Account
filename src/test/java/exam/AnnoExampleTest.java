@@ -1,6 +1,6 @@
-package com.example.account.exam;
+package exam;
 
-import com.example.account.exam.AnnoExample;
+import exam.AnnoExample;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
