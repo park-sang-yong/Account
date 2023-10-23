@@ -6,7 +6,7 @@ import com.example.account.domain.AccountStatus;
 import com.example.account.repository.AccountRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
+
 import org.springframework.stereotype.Service;
 
 @Service

@@ -3,6 +3,7 @@ spring:
     redis:
       host: 127.0.0.1
       port: 6379
+      #maxmemory: 128M
   datasource:
     url: jdbc:h2:mem:test
     username: sa
@@ -11,7 +12,6 @@ spring:
   h2:
     console:
       enabled: true
-#      path: /h2-console
   jpa:
     defer-datasource-initialization: true
     database-platform: H2
