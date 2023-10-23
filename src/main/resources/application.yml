@@ -1,4 +1,5 @@
 spring:
+  #data는 java20은 data밑에 둔다.
   data:
     redis:
       host: 127.0.0.1
