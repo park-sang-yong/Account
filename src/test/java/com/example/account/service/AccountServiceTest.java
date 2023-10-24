@@ -1,7 +1,7 @@
 package com.example.account.service;
 
 import com.example.account.domain.Account;
-import com.example.account.domain.AccountStatus;
+import com.example.account.type.AccountStatus;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ class AccountServiceTest {
 
     @BeforeEach
     void init(){
-        accountService.createAccount();
+        accountService.createAccount(1L,40000L);
     }
     @Test
     void testGetAccount(){
